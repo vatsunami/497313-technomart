@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Alex Var](https://up.htmlacademy.ru/htmlcss/23/user/497313).
-* Наставник: `Неизвестно`.
+* Наставник: [Nikita Rogatnev](https://htmlacademy.ru/profile/nikita_rogatnev).
 
 ---
 
