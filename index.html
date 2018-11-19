@@ -8,9 +8,13 @@
 
     <header class="header">
       <a class="logo">Техномарт</a>
-      <input type="search" placeholder="Поиск">
-      <a href="#">Закладки</a>
-      <a href="#">Корзина</a>
+      <form class="form-search" action="https://echo.htmlacademy.ru" method="post">
+        <input type="search" placeholder="Поиск">
+      </form>
+      <ul> <!--???? -->
+        <li><a href="#">Закладки: 0</a></li>
+        <li><a href="#">Корзина: 0</a></li>
+      </ul>
       <a href="#">Оформить заказ</a>
       <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
       <p class="header-tel">+7 (812) 555-05-55</p>
@@ -94,10 +98,10 @@
             <h3>Перфоратор <span>bosch bfg 9000</span></h3>
             <span>32500 Р</span>
             <b class="product-price">25500 P</b>
-            <p><a
-               href="#">Купить</a>
-              <button type="button">В закладки</button>
-            </p>
+            <div>
+              <a href="#">Купить</a>
+              <a href="#">В закладки</a>
+            </div>
           </li>
           <li class="product-item">
             <p class="product-image">
@@ -106,10 +110,10 @@
             <h3>Перфоратор <span>bosch bfg 3000</span></h3>
             <span>22500 Р</span>
             <b class="product-price">15500 P</b>
-            <p>
+            <div>
               <a href="#">Купить</a>
-              <button type="button">В закладки</button>
-            </p>
+              <a href="#">В закладки</a>
+            </div>
           </li>
           <li class="product-item">
             <p class="product-image">
@@ -118,10 +122,10 @@
             <h3>Перфоратор <span>bosch bfg 6000</span></h3>
             <span>30500 Р</span>
             <b class="product-price">25500 P</b>
-            <p>
+            <div>
               <a href="#">Купить</a>
-              <button type="button">В закладки</button>
-            </p>
+              <a href="#">В закладки</a>
+            </div>
           </li>
           <li class="product-item">
             <p class="product-image">
@@ -129,10 +133,10 @@
             </p>
             <h3>Перфоратор <span>bosch bfg 2000</span></h3>
             <b class="product-price">12500 P</b>
-            <p>
+            <div>
               <a href="#">Купить</a>
-              <button type="button">В закладки</button>
-            </p>
+              <a href="#">В закладки</a>
+            </div>
           </li>
         </ul>
       </section>
@@ -142,44 +146,44 @@
         <a href="#" class="button">Все производители</a>
         <ul class="brands-list">
           <li class="brands-item">
-            <p class="brands-image">
+            <a href="#" class="brands-image">
               <img src="http://placehold.it/150x100" alt="BOSCH">
-            </p>
+            </a>
           </li>
           <li class="brands-item">
-            <p class="brands-image">
+            <a href="#" class="brands-image">
               <img src="http://placehold.it/150x100" alt="Makita">
-            </p>
+            </a>
           </li>
           <li class="brands-item">
-            <p class="brands-image">
+            <a href="#" class="brands-image">
               <img src="http://placehold.it/150x100" alt="DeWalt">
-            </p>
+            </a>
           </li>
           <li class="brands-item">
-            <p class="brands-image">
+            <a href="#" class="brands-image">
               <img src="http://placehold.it/150x100" alt="Интерскол">
-            </p>
+            </a>
           </li>
           <li class="brands-item">
-            <p class="brands-image">
+            <a href="#" class="brands-image">
               <img src="http://placehold.it/150x100" alt="HITACHI">
-            </p>
+            </a>
           </li>
           <li class="brands-item">
-            <p class="brands-image">
+            <a href="#" class="brands-image">
               <img src="http://placehold.it/150x100" alt="LG">
-            </p>
+            </a>
           </li>
           <li class="brands-item">
-            <p class="brands-image">
+            <a href="#" class="brands-image">
               <img src="http://placehold.it/150x100" alt="AEG">
-            </p>
+            </a>
           </li>
           <li class="brands-item">
-            <p class="brands-image">
+            <a href="#" class="brands-image">
               <img src="http://placehold.it/150x100" alt="metabo">
-            </p>
+            </a>
           </li>
         </ul>
       </section>
@@ -191,13 +195,16 @@
         <div class="services-slider">
           <ul class="services-list">
             <li class="services-item">
-              <button type="button">Доставка</button>
+              <input type="radio" name="slide" id="slide-1">
+              <label for="slide-1">Доставка</label>
             </li>
             <li class="services-item">
-              <button type="button">Гарантии</button>
+              <input type="radio" name="slide" id="slide-2">
+              <label for="slide-2">Гарантии</label>
             </li>
             <li class="services-item">
-              <button type="button">Кредит</button>
+              <input type="radio" name="slide" id="slide-3">
+              <label for="slide-3">Кредит</label>
             </li>
           </ul>
           <div class="services-slides">
@@ -255,30 +262,30 @@
         <li><a href="delivery.html">Доставка</a></li>
         <li><a href="contact.html">Контакты</a></li>
       </ul>
-      <p class="footer-contact">г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8<br>
-        +7 (812) 555-05-55</p>
+      <p class="footer-contact">г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8</p>
+      <p>+7 (812) 555-05-55</p>
       <ul class="footer-catalog catalog-nav">
         <li><a href="#">Материалы</a></li>
         <li><a href="#">Техника</a></li>
         <li><a href="#">Инструмент</a></li>
         <li><a href="#">Спецпредложения</a></li>
       </ul>
-      <p class="footer-copyright">&copy;2010-2017 Компания «Техномарт»<br>
-        Все права защищены</p>
+      <p class="footer-copyright">&copy;2010-2017 Компания «Техномарт»</p>
+      <p>Все права защищены</p>
       <b class="visually-hidden">Мы в социальных сетях</b>
       <ul class="footer-social">
         <li class="social-button social-button-vk"><a href="#">Вконтакте</a></li>
         <li class="social-button social-button-fb"><a href="#">Facebook</a></li>
         <li class="social-button social-button-in"><a href="#">Instagram</a></li>
       </ul>
-      <p class="footer-feedback">
+      <div class="footer-feedback">
         <b>Обратная связь:</b>
         <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-      </p>
-      <p class="footer-develop">
+      </div>
+      <div class="footer-develop">
         <b>Разработано —</b>
         <a href="https://htmlacademy.ru">htmlacademy.ru</a>
-      </p>
+      </div>
     </footer>
 
     <section class="modal modal-map">
