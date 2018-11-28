@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Cuprum';
+  font-style: normal;
+  font-weight: 400;
+  src:  url('../fonts/cuprum.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Cuprum';
+  font-style: italic;
+  font-weight: 400;
+  src:  url('../fonts/cuprumitalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Cuprum';
+  font-style: normal;
+  font-weight: 700;
+  src:  url('../fonts/cuprumbold.woff2') format('woff2');
+}
