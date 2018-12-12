@@ -117,12 +117,12 @@
               <label for="catalog-slide-1" class="catalog-slider-forward">Следующий слайд</label>
               <label for="catalog-slide-2" class="catalog-slider-back">Предыдущий слайд</label>
               <ul class="catalog-slide-list">
-                <li class="catalog-slide-item catalog-slide-perforators" id="slide-1">
+                <li class="catalog-slide-item catalog-slide-perforators">
                   <h3 class="catalog-slide-title">Перфораторы</h3>
                   <p class="catalog-slide-text">Настоящие мужские игрушки</p>
                   <a href="catalog.html" class="catalog-slide-button button">Открыть каталог</a>
                 </li>
-                <li class="catalog-slide-item catalog-slide-drills" id="slide-2">
+                <li class="catalog-slide-item catalog-slide-drills">
                   <h3 class="catalog-slide-title">Дрели</h3>
                   <p class="catalog-slide-text">Соседям на радость!</p>
                   <a href="catalog.html" class="catalog-slide-button button">Открыть каталог</a>
@@ -268,21 +268,21 @@
           <p class="services-text">Хороший интренет-магазин отличается от плохого не только ценами!
             Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
           <div class="services-slider">
+            <input type="radio" name="slide" id="services-slide-1" checked class="visually-hidden services-radio">
+            <input type="radio" name="slide" id="services-slide-2" class="visually-hidden services-radio">
+            <input type="radio" name="slide" id="services-slide-3" class="visually-hidden services-radio">
             <ul class="services-list">
               <li class="services-item">
-                <input type="radio" name="slide" id="services-slide-1" checked class="visually-hidden services-radio">
                 <label for="services-slide-1">Доставка</label>
               </li>
               <li class="services-item">
-                <input type="radio" name="slide" id="services-slide-2" class="visually-hidden services-radio">
                 <label for="services-slide-2">Гарантия</label>
               </li>
               <li class="services-item">
-                <input type="radio" name="slide" id="services-slide-3" class="visually-hidden services-radio">
                 <label for="services-slide-3">Кредит</label>
               </li>
             </ul>
-            <ul class="services-slides">
+            <ul class="services-slide-list">
               <li class="services-slide services-slide-delivery" id="services-slide-1">
                 <h3>Доставка</h3>
                 <p>Мы с удовольствием доставим ваш товар прямо<br> к вашему подъезду совершенно бесплатно!
