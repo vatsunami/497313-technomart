@@ -2,12 +2,12 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
     <title>HTML Academy: Техномарт</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
   </head>
-  <body>
-
+  <body class="inner-page">
     <header class="header">
 
       <div class="header-top">
@@ -23,7 +23,7 @@
                 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"/>
             </svg>
           </form>
-          <ul class="purchase-nav">
+          <ul class="header-purchase">
             <li>
               <a href="#" class="header-bookmark">
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16">
@@ -41,6 +41,7 @@
                 </svg>Корзина: 10
               </a>
             </li>
+          </ul>
           <a href="#" class="header-order">Оформить заказ</a>
         </div>
       </div>
@@ -48,7 +49,7 @@
       <div class="header-middle">
         <div class="container">
           <p class="header-title">
-            <b>Интернет-магазин строительных материалов и инструментов для ремонта</b>
+            <b>Интернет-магазин строительных материалов и&nbsp;инструментов для ремонта</b>
           </p>
           <div class="header-contacts">
             <p class="header-phone">+7 (812) 555-05-55</p>
@@ -83,7 +84,6 @@
               <li><a href="#" class="profile-account">Личный кабинет</a></li>
             </ul>
           </div>
-
         </div>
       </div>
 
@@ -102,7 +102,7 @@
       </nav>
     </header>
 
-    <main class="inner-page">
+    <main>
       <div class="container">
         <ul class="breadcrumbs">
           <li><a href="index.html" class="breadcrumbs-home"><span class="visually-hidden">Главная</span></a></li>
@@ -192,8 +192,8 @@
                   </li>
                 </ul>
                 <ul class="sort-order-list">
-                  <li class="sort-order-item sort-order-current">
-                    <a href="#" class="sort-order-up">
+                  <li class="sort-order-item">
+                    <a href="#" class="sort-order-up sort-order-current">
                       <span class="visually-hidden">По возрастанию</span>
                       <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
                         <path fill="#231F20" d="M5.5 0L0 10h11z"/>
@@ -359,8 +359,8 @@
       <article class="product-info">
         <div class="container">
           <h2>Пара слов о перфораторах</h2>
-          <p>Перфоратор - универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче,
-          бетоне и камне.</br> Cуществуют электромеханические и пневматические перфораторы. Современные модели могут выполнять
+          <p>Перфоратор – универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче,
+          бетоне и камне.<br> Cуществуют электромеханические и пневматические перфораторы. Современные модели могут выполнять
           функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве
           будут совмещены отбойный молоток и ударная дрель.</p>
         </div>
@@ -425,14 +425,15 @@
       </div>
     </footer>
 
-    <!-- <section class="modal modal-cart">
-      <h2>Товар добавлен в корзину!</h2>
+    <section class="modal modal-cart">
+      <p>
+        <b>Товар добавлен в корзину!</b>
+      </p>
       <div class="modal-cart-buttons">
         <a href="#" class="button">Оформить заказ</a>
         <button type="button">Продолжить покупки</button>
       </div>
       <button type="button" class="modal-close">Закрыть</button>
-    </section> -->
-
+    </section>
   </body>
 </html>

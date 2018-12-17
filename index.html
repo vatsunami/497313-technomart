@@ -2,16 +2,17 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
     <title>HTML Academy: Техномарт</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body>
     <header class="header">
 
       <div class="header-top">
         <div class="container">
-          <a class="logo">
+          <a class="header-logo logo">
             <img src="img/logo.png" alt="Техномарт" width="110" height="18">
           </a>
           <form class="form-search" action="https://echo.htmlacademy.ru" method="post">
@@ -22,7 +23,7 @@
                 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"/>
             </svg>
           </form>
-          <ul class="purchase-nav">
+          <ul class="header-purchase">
             <li>
               <a href="#" class="header-bookmark">
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16">
@@ -47,7 +48,7 @@
 
       <div class="header-middle">
         <div class="container">
-          <h1 class="header-title">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+          <h1 class="header-title">Интернет-магазин строительных материалов и&nbsp;инструментов для ремонта</h1>
           <div class="header-contacts">
             <p class="header-phone">+7 (812) 555-05-55</p>
             <p class="header-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
@@ -69,19 +70,20 @@
           </div>
         </div>
       </div>
-      <div class="header-bottom container">
-        <nav class="main-nav">
-          <ul class="site-nav">
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="info.html">Компания</a></li>
-            <li><a href="catalog.html">Каталог</a></li>
-            <li><a href="news.html">Новости</a></li>
-            <li><a href="offers.html">Спецпредложения</a></li>
-            <li><a href="delivery.html">Доставка</a></li>
-            <li><a href="contact.html">Контакты</a></li>
-          </ul>
+
+        <nav class="main-nav header-bottom">
+          <div class="container">
+            <ul class="site-nav">
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="info.html">Компания</a></li>
+              <li><a href="catalog.html">Каталог</a></li>
+              <li><a href="news.html">Новости</a></li>
+              <li><a href="offers.html">Спецпредложения</a></li>
+              <li><a href="delivery.html">Доставка</a></li>
+              <li><a href="contact.html">Контакты</a></li>
+            </ul>
+          </div>
         </nav>
-      </div>
     </header>
 
     <main class="main-page">
@@ -283,20 +285,20 @@
               </li>
             </ul>
             <ul class="services-slide-list">
-              <li class="services-slide services-slide-delivery" id="services-slide-1">
+              <li class="services-slide services-slide-delivery">
                 <h3>Доставка</h3>
                 <p>Мы с удовольствием доставим ваш товар прямо<br> к вашему подъезду совершенно бесплатно!
                   Ведь мы неплохо заработаем,<br> поднимая его на ваш этаж!</p>
               </li>
-               <li class="services-slide services-slide-guarantee" id="services-slide-2">
+               <li class="services-slide services-slide-guarantee">
                 <h3>Гарантия</h3>
-                <p>Если купленный у нас товар поломается или заискрит,<br> а так же в случае пожара,
+                <p>Если купленный у нас товар поломается или заискрит,<br> а также в случае пожара,
                   спровоцированного его возгаранием, вы всегда можете быть уверены в нашей гарантии.
                   Мы обменяем сгоревший товар на новый.<br>Дом уж восстановите как-нибудь сами.</p>
               </li>
-              <li class="services-slide services-slide-credit" id="services-slide-3">
+              <li class="services-slide services-slide-credit">
                 <h3>Кредит</h3>
-                <p>Залезть в долговую яму стало проще!<br>Кредитные консультанты придут к вам на помощь.</p>
+                <p>Залезть в долговую яму стало проще!<br>Кредитные консультанты придут вам на помощь.</p>
                 <a href="#" class="button">Отправить заявку</a>
               </li>
             </ul>
@@ -310,7 +312,7 @@
             <h2 class="info-title">Компания «Техномарт»</h2>
             <p class="info-text">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства
               не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
-            <p class="partners-text">Мы можем доставить ваш товар в самые отдаленные точки России!
+            <p class="info-text">Мы можем доставить ваш товар в самые отдаленные точки России!
               Техномарт работает со многими транспортными компаниями:</p>
             <ul class="partners-list">
               <li class="partners-item">Деловые линии</li>
@@ -394,7 +396,7 @@
       <a href="#" class="modal-image">
         <img src="img/map-popup.jpg" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8" width="940" height="446">
       </a>
-      <button type="button" class="modal-close visually-hidden">Закрыть</button>
+      <button type="button" class="modal-close">Закрыть</button>
     </section>
 
     <section class="modal modal-write">
@@ -420,7 +422,7 @@
           <button type="submit" class="button">Отправить</button>
         </div>
       </form>
-      <button type="button" class="modal-close visually-hidden">Закрыть</button>
+      <button type="button" class="modal-close">Закрыть</button>
     </section>
 
   </body>
