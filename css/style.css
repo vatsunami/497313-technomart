@@ -1,41 +1,41 @@
 @font-face {
-  font-family: 'Cuprum';
+  font-family: "Cuprum";
   font-style: normal;
   font-weight: 400;
-  src:  url('../fonts/cuprum.woff2') format('woff2'),
-        url('../fonts/cuprum.woff') format('woff');
+  src:  url("../fonts/cuprum.woff2") format("woff2"),
+        url("../fonts/cuprum.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Cuprum';
+  font-family: "Cuprum";
   font-style: italic;
   font-weight: 400;
-  src:  url('../fonts/cuprumitalic.woff2') format('woff2'),
-        url('../fonts/cuprumitalic.woff') format('woff');
+  src:  url("../fonts/cuprumitalic.woff2") format("woff2"),
+        url("../fonts/cuprumitalic.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Cuprum';
+  font-family: "Cuprum";
   font-style: normal;
   font-weight: 700;
-  src:  url('../fonts/cuprumbold.woff2') format('woff2'),
-        url('../fonts/cuprumbold.woff') format('woff');
+  src:  url("../fonts/cuprumbold.woff2") format("woff2"),
+        url("../fonts/cuprumbold.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src:  url('../fonts/ptsans.woff2') format('woff2'),
-        url('../fonts/ptsans.woff') format('woff');
+  src:  url("../fonts/ptsans.woff2") format("woff2"),
+        url("../fonts/ptsans.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src:  url('../fonts/ptsansbold.woff2') format('woff2'),
-        url('../fonts/ptsansbold.woff') format('woff');
+  src:  url("../fonts/ptsansbold.woff2") format("woff2"),
+        url("../fonts/ptsansbold.woff") format("woff");
 }
 
 @-webkit-keyframes bounce {
@@ -109,7 +109,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'PT Sans', Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 24px;
@@ -143,7 +143,7 @@ img {
   padding: 0 20px;
   padding-top: 11px;
   padding-bottom: 9px;
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
@@ -169,7 +169,7 @@ img {
 }
 
 .main-page h2 {
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-weight: 400;
   font-size: 30px;
   font-weight: 400;
@@ -234,7 +234,7 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   line-height: 0;
   background-color: rgb(243, 247, 249);
 }
@@ -280,7 +280,7 @@ img {
   padding: 0;
   padding-bottom: 1px;
   padding-left: 48px;
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 17px;
   font-weight: 400;
   line-height: normal;
@@ -492,13 +492,13 @@ img {
 }
 
 .header-phone::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 10px;
   left: 12px;
   width: 19px;
   height: 19px;
-  background-image: url('../img/icon-phone.svg');
+  background-image: url("../img/icon-phone.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -672,7 +672,7 @@ img {
 }
 
 .profile-nav::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 7px;
   left: 90px;
@@ -757,7 +757,7 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-bottom: 53px;
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
 }
 
 .catalog-category-list {
@@ -892,7 +892,7 @@ img {
 .catalog-slider-forward {
   left: 25px;
   background-color: transparent;
-  background-image: url('../img/icon-left.svg');
+  background-image: url("../img/icon-left.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -900,7 +900,7 @@ img {
 .catalog-slider-back {
   right: 20px;
   background-color: transparent;
-  background-image: url('../img/icon-right.svg');
+  background-image: url("../img/icon-right.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -950,13 +950,13 @@ img {
 }
 
 .catalog-slide-drills {
-  background-image: url('../img/background-slide-drills.jpg');
+  background-image: url("../img/background-slide-drills.jpg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
 
 .catalog-slide-perforators {
-  background-image: url('../img/background-slide-perforators.jpg');
+  background-image: url("../img/background-slide-perforators.jpg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -1025,7 +1025,7 @@ img {
 .popular h2 {
   margin: 0;
   padding-top: 1px;
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   color: #32425c;
@@ -1148,7 +1148,7 @@ img {
 .product-name,
 .product-discount,
 .product-price {
-  font-family: 'PT Sans', Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -1193,7 +1193,7 @@ img {
 }
 
 .product-price::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     right: -26px;
@@ -1230,7 +1230,7 @@ img {
   width: 135px;
   margin: 0 auto;
   margin-bottom: 8px;
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-weight: 400;
   border-radius: 3px;
 }
@@ -1401,7 +1401,6 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-bottom: 98px;
 }
 
 .services-list {
@@ -1416,13 +1415,13 @@ img {
 }
 
 .services-list::after {
-  content: '';
+  content: "";
   position: absolute;
   top: -5px;
   right: 0;
   width: 10px;
   height: 272px;
-  background-image: url('../img/services-shadow.png');
+  background-image: url("../img/services-shadow.png");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -1435,7 +1434,7 @@ img {
   padding-top: 13px;
   padding-bottom: 19px;
   padding-left: 22px;
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 21px;
   font-weight: 700;
   line-height: 30px;
@@ -1478,10 +1477,13 @@ img {
 }
 
 .services-slide-list {
-  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 630px;
+  min-height: 320px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -1492,7 +1494,6 @@ img {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 630px;
-  height: 320px;
   padding-top: 31px;
   background-color: #f5f8fa;
 }
@@ -1501,7 +1502,7 @@ img {
   margin-top: 0;
   margin-bottom: 22px;
   font-size: 36px;
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-weight: 400;
   line-height: 42px;
   text-transform: uppercase;
@@ -1514,9 +1515,6 @@ img {
 }
 
 .services-slide-delivery {
-  position: absolute;
-  top: 0;
-  left: 0;
   background-image: url(../img/background-delivery.png);
   background-repeat: no-repeat;
   background-position: 151px 59px;
@@ -1528,9 +1526,6 @@ img {
 }
 
 .services-slide-guarantee {
-  position: absolute;
-  top: 0;
-  left: 0;
   background-image: url(../img/background-guarantee.png);
   background-repeat: no-repeat;
   background-position: 239px 37px;
@@ -1542,10 +1537,7 @@ img {
 }
 
 .services-slide-credit {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-image: url('../img/background-credit.png');
+  background-image: url("../img/background-credit.png");
   background-repeat: no-repeat;
   background-position: 165px 35px;
 }
@@ -1604,7 +1596,7 @@ img {
   margin: 0;
   margin-bottom: 35px;
   padding: 0;
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 18px;
   line-height: 22px;
   list-style: none;
@@ -1617,7 +1609,7 @@ img {
 }
 
 .partners-item::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 10px;
   left: 0;
@@ -1650,7 +1642,7 @@ img {
 }
 
 .footer {
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   background-color: #32425c;
 }
 
@@ -1834,6 +1826,8 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 133px;
   margin: 0;
   padding: 0;
@@ -1892,7 +1886,7 @@ img {
 
 .modal {
   position: fixed;
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-weight: 400;
   display: none;
   z-index: 100;
@@ -1925,7 +1919,7 @@ img {
 
 .modal-close::after,
 .modal-close::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 18px;
   right: 6px;
@@ -1959,11 +1953,13 @@ img {
   position: absolute;
   top: 0;
   left: 0;
+  border: none;
 }
 
 .modal-image {
   width: 940px;
   height: 446px;
+  background-color: #efebe4;
 }
 
 .modal-image img {
@@ -2022,7 +2018,7 @@ img {
           box-sizing: border-box;
   display: block;
   padding: 8px 14px;
-  font-family: 'PT Sans', Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 18px;
@@ -2110,7 +2106,7 @@ img {
   line-height: 30px;
   letter-spacing: 0.004em;
   background-color: #ffffff;
-  background-image: url('../img/icon-mark.svg');
+  background-image: url("../img/icon-mark.svg");
   background-repeat: no-repeat;
   background-position: 81px 55px;
   -webkit-box-shadow: inset 0 7px 0 0 #ee3643;
@@ -2141,7 +2137,7 @@ img {
 
 .modal-cart-buttons button {
   padding: 12px 20px 9px 17px;
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 14px;
   line-height: 17px;
   text-transform: uppercase;
@@ -2167,13 +2163,13 @@ img {
 }
 
 .breadcrumbs li:not(:last-child)::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 1px;
   right: -23px;
   width: 8px;
   height: 12px;
-  background-image: url('../img/icon-right-small.svg');
+  background-image: url("../img/icon-right-small.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -2182,14 +2178,14 @@ img {
   display: block;
   width: 15px;
   height: 16px;
-  background-image: url('../img/icon-home.svg');
+  background-image: url("../img/icon-home.svg");
   background-repeat: no-repeat;
   background-position: -2px 1px;
 }
 
 .breadcrumbs a {
   display: block;
-  font-family: 'PT Sans', Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 13px;
   line-height: 16px;
@@ -2200,7 +2196,7 @@ img {
   margin: 0;
   margin-bottom: 20px;
   padding: 30px 28px 29px;
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 30px;
   font-weight: 400;
   line-height: 30px;
@@ -2347,7 +2343,7 @@ img {
 
 .filter-title,
 .sort-title {
-  font-family: 'PT sans', Arial, sans-serif;
+  font-family: "PT sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
 }
@@ -2357,7 +2353,7 @@ img {
 .filter button,
 .sort,
 .pagination-list {
-  font-family: 'PT Sans', Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -2390,7 +2386,7 @@ img {
 .filter label {
   display: block;
   padding-left: 34px;
-  font-family: 'PT Sans', Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;
@@ -2456,7 +2452,7 @@ img {
 }
 
 .filter-price .price-controls::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 19px;
   left: 105px;
@@ -2525,33 +2521,33 @@ img {
 }
 
 .filter-input-checkbox + label::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -2px;
   left: 0px;
   width: 27px;
   height: 23px;
-  background-image: url('../img/checkbox-off.svg');
+  background-image: url("../img/checkbox-off.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
 
 .filter-input-checkbox:checked + label::before {
-  background-image: url('../img/checkbox-on.svg');
+  background-image: url("../img/checkbox-on.svg");
 }
 
 .filter-input-checkbox + label:hover::before,
 .filter-input-checkbox:focus + label::before,
 .filter-input-checkbox:disabled + label::before,
 .filter-input-checkbox:disabled + label:hover::before {
-  background-image: url('../img/checkbox-hover-off.svg');
+  background-image: url("../img/checkbox-hover-off.svg");
 }
 
 .filter-input-checkbox:checked + label:hover::before,
 .filter-input-checkbox:checked:focus + label::before,
 .filter-input-checkbox:checked:disabled + label::before,
 .filter-input-checkbox:checked:disabled + label:hover::before {
-  background-image: url('../img/checkbox-hover-on.svg');
+  background-image: url("../img/checkbox-hover-on.svg");
 }
 
 .filter-input-checkbox:disabled + label {
@@ -2563,7 +2559,7 @@ img {
 }
 
 .filter-input-radio + label::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -2px;
   left: -1px;
@@ -2670,7 +2666,7 @@ img {
 .product-info h2 {
   margin: 0;
   margin-bottom: 26px;
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-weight: 400;
   font-size: 30px;
   line-height: 30px;
@@ -2720,7 +2716,7 @@ img {
 .inner-content ul {
   margin: 20px 0;
   padding: 0;
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 18px;
   line-height: 22px;
   list-style: none;
@@ -2733,7 +2729,7 @@ img {
 }
 
 .inner-content li::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 10px;
   left: 0;
