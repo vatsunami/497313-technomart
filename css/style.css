@@ -38,6 +38,33 @@
         url('../fonts/ptsansbold.woff') format('woff');
 }
 
+@keyframes bounce {
+  0% {
+    transform: translateY(-5000px);
+  }
+  70% {
+    transform: translateY(30px);
+  }
+  90% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -250,19 +277,11 @@ img {
   color: #000000;
 }
 
-.form-search input[type="search"]::-ms-input-placeholder {
-  color: #ffffff;
-}
-
-.form-search input[type="search"]:focus::-ms-input-placeholder {
-  color: #ffffff;
-}
-
 .form-search input[type="search"]:-ms-input-placeholder {
   color: #ffffff;
 }
 
-.form-search input[type="search"]:-ms-input-placeholder {
+.form-search input[type="search"]:focus:-ms-input-placeholder {
   color: #000000;
 }
 
@@ -1602,7 +1621,7 @@ img {
 }
 
 .footer-logo img {
-  height: 21px;
+  height: 22px;
 }
 
 .footer-nav {
@@ -1836,6 +1855,12 @@ img {
   border: none;
 }
 
+.modal-show {
+  display: block;
+  animation-name: bounce;
+  animation-duration: 0.6s;
+}
+
 .modal-write .modal-close,
 .modal-cart .modal-close {
   top: 7px;
@@ -1865,13 +1890,18 @@ img {
 }
 
 .modal-map {
-  bottom: 357px;
+  bottom: 310px;
   left: 50%;
   width: 940px;
-  margin-bottom: -179px;
   margin-left: -470px;
   -webkit-box-shadow: 0 0 16px rgba(47, 42, 43, 0.5);
           box-shadow: 0 0 16px rgba(47, 42, 43, 0.5);
+}
+
+.modal-map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .modal-image {
@@ -1892,6 +1922,11 @@ img {
           box-sizing: border-box;
   -webkit-box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.75);
           box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.75);
+}
+
+.modal-error {
+  animation-name: shake;
+  animation-duration: 0.6s;
 }
 
 .write-user {
@@ -1934,6 +1969,7 @@ img {
   line-height: 18px;
   border: 2px #d7dcde solid;
   border-radius: 2px;
+  outline: none;
 }
 
 .write-user input::-webkit-input-placeholder,
@@ -1944,6 +1980,7 @@ img {
 .write-user input::-moz-placeholder,
 .write-user textarea::-moz-placeholder {
   color: #999999;
+  opacity: 1;
 }
 
 .write-user input::-ms-input-placeholder,
@@ -2044,7 +2081,7 @@ img {
 }
 
 .modal-cart-buttons button {
-  padding: 11px 20px 9px 17px;
+  padding: 12px 20px 9px 17px;
   font-family: 'Cuprum', Arial, sans-serif;
   font-size: 14px;
   line-height: 17px;

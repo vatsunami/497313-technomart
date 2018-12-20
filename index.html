@@ -5,7 +5,7 @@
     <meta name="format-detection" content="telephone=no">
     <title>HTML Academy: Техномарт</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="header">
@@ -328,7 +328,7 @@
             <a href="#" class="contact-image">
               <img src="img/map.jpg" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8" width="300" height="158">
             </a>
-            <button type="button" class="button">Заблудились? Напишите нам!</button>
+            <button type="button" class="button contact-button">Заблудились? Напишите нам!</button>
           </section>
         </div>
       </div>
@@ -393,6 +393,8 @@
 
     <section class="modal modal-map">
       <h2 class="visually-hidden">Как до нас добраться</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1608.478781804718!2d30.321219223299785!3d59.93889495305371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1545250292175"
+        width="940" height="446" frameborder="0" style="border:0" allowfullscreen></iframe>
       <a href="#" class="modal-image">
         <img src="img/map-popup.jpg" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8" width="940" height="446">
       </a>
@@ -425,5 +427,16 @@
       <button type="button" class="modal-close">Закрыть</button>
     </section>
 
+    <section class="modal modal-cart">
+      <p>
+        <b>Товар добавлен в корзину!</b>
+      </p>
+      <div class="modal-cart-buttons">
+        <a href="#" class="button">Оформить заказ</a>
+        <button type="button">Продолжить покупки</button>
+      </div>
+      <button type="button" class="modal-close">Закрыть</button>
+    </section>
+    <script src="js/script.js"></script>
   </body>
 </html>
