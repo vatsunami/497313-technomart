@@ -1944,7 +1944,9 @@ img {
   bottom: 310px;
   left: 50%;
   width: 940px;
+  height: 446px;
   margin-left: -470px;
+  background-color: #efebe4;
   -webkit-box-shadow: 0 0 16px rgba(47, 42, 43, 0.5);
           box-shadow: 0 0 16px rgba(47, 42, 43, 0.5);
 }
@@ -1959,7 +1961,6 @@ img {
 .modal-image {
   width: 940px;
   height: 446px;
-  background-color: #efebe4;
 }
 
 .modal-image img {
