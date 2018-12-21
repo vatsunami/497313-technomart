@@ -33,6 +33,9 @@ if (write) {
   var writeName = writePopup.querySelector("[name=name]");
   var writeMail = writePopup.querySelector("[name=email]");
   var writeText = writePopup.querySelector("[name=message]");
+  var writeSubmit = writePopup.querySelector(".button");
+
+
 
   var isStorageSupport = true;
 
@@ -62,6 +65,8 @@ if (write) {
   writeForm.addEventListener("submit", function (evt) {
     if (!writeName.value || !writeMail.value || !writeText.value) {
       evt.preventDefault();
+      writePopup.classList.remove("modal-error");
+      void writePopup.offsetWidth;
       writePopup.classList.add("modal-error");
     } else {
       if (isStorageSupport) {
@@ -70,6 +75,7 @@ if (write) {
       }
     }
   });
+
 
   window.addEventListener("keydown", function (evt) {
     if (evt.keyCode === 27) {
